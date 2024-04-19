@@ -1,0 +1,416 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Style */
+
+.LandingBG {
+  background-image: url(BG-TinyTots.jpg);
+  background-size: cover;
+   
+}
+
+
+.blur{
+  filter: blur(5px);
+}
+
+.topnav { 
+  overflow: hidden;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: 48%;
+  margin-bottom: 20px; 
+}
+
+
+.reg-group {
+  width: 48%;
+  margin-bottom: 20px;  
+  text-align: center;
+  float: left;  
+  margin-top: 10px;
+  margin-left: 160px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.reg-group label {
+  display: block;
+  font-weight: bold;
+  color: #201261;
+  margin-bottom: 5px;
+}
+
+.reg-group input[type="text"], 
+.reg-group input[type="email"],
+.reg-group input[type="date"], 
+.reg-group input[type="file"],
+.reg-group input[type="time"],
+.reg-group input[type="number"],
+.reg-group input[type="password"],
+.reg-group input[type="checkbox"],
+.reg-group input[type="tel"],
+.reg-group select,
+.reg-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submitBTN{
+  margin-left: 520px;
+  background-color: #6A4A85;
+  border-radius: 13px;
+  padding: 15px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+
+.topnav-right {
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.topright-item {
+  margin-left: 80px;
+  text-decoration: none;  
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 20px;
+  border-radius: 300px;
+  padding: 10px;
+}
+
+a.topright-item:hover {
+  background-color: #FFFFFF;
+  color: #201261;
+}
+
+.landBody{
+  padding:25px 50px 75px 100px;
+  text-decoration: none; 
+  height: 100vh;
+}
+
+.button {
+  background-color: #201261;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.justLogo {
+  background-color: #201261;
+  color: #FFFFFF;
+  border: 2px solid #201261;
+  border-radius: 25px;
+  font-size: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.justLogo:hover {
+  background-color: #FFFFFF;
+  color: #201261;
+}
+
+
+
+.landingImage{
+  padding-left: 30px;
+  float: right;
+  text-align: right;
+  width: 38%;
+  padding-right: 50px;
+  margin: 35px 3px 10px 10px;
+}
+
+.landingText{
+  margin-left: 100px;
+}
+
+.landingExtraText{
+  font-family: 'Livvic';
+  color: black;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.landingMainText{
+  font-family: 'Montserrat';
+  color: #FDE5EC;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 55px;
+  text-shadow: 2px 2px 4px gray;
+  margin-top: 58px;
+}
+
+.backButton {
+  width:50px; 
+  height: 50px; 
+  padding: 100px 10px 0px 100px;
+}
+
+.bodyLogin{
+  background-image: url(loginBG.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.loginButton {
+  background-color: #8C52FF;
+  color: #FFFFFF;
+  border: 2px solid #8C52FF;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 285px;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.loginButton:hover {
+  background-color: #FFFFFF;
+  color: #201261;
+}
+
+.loginDS{
+  padding-left: 145px;
+  text-align: right;
+  width: 55%;
+  margin-top: 50px;
+  padding-right: 50px;
+  margin-right: 130px;
+}
+
+.loginDSWeb{
+  padding-left: 145px;
+  text-align: right;
+  width: 60%;
+  margin-top: 250px;
+  padding-right: 50px;
+  margin-right: 130px;
+}
+
+.loginDSReg{
+  padding-left: 145px;
+  text-align: right;
+  width: 30%;
+  position: fixed;
+  margin-top: 250px;
+  padding-right: 50px;
+  margin-right: 130px;
+}
+
+
+.loginnameLogo{
+  text-align: center;
+  float: left;  
+  color: white; 
+  margin-top: 100px;
+  margin-left: 230px;
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+  
+}
+ 
+.loginText{
+  color:  #8C52FF;
+  font-size: 16px;  
+  text-align: center;
+  float: right;
+  margin-right: 280px;
+  font-style: bold;
+  margin-left: 250px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.signinText{
+  color:  #8C52FF;
+  font-size: 22px;  
+  font-style: bold;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 340px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 300px;
+  float: right;
+}
+
+.forgotPass{
+  text-decoration: none;
+  text-align: center;
+  float: right;
+  margin-right: 310px;
+  margin-top: 20px;
+}
+
+.loginTextBox{
+  background-color: #FFFFFF;
+  border: 2px solid #8C52FF;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  width: 200px;
+  text-align: center;
+  padding-left: 50px; 
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 210px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.loginTextBoxselect {
+  background-color: #FFFFFF;
+  border: 2px solid #8C52FF;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+
+
+.loginTextLabel{
+  font-size: 16px;
+  color: #8C52FF;
+  width: 100px;
+  font-family: 'Montserrat';
+  padding: 10px 50px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.colDivsion{
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.mapBackground{
+  float: left;
+  text-align: left;
+  width: 38%;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
+.registerBTN {
+  background-color: #8C52FF;
+  border: 1px solid#201261;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+  float: left;
+  margin-top: 5px;
+  font-style: bold;
+  margin-left: 230px;
+  font-family: "Inter", sans-serif;
+}
+
+.registerBTN:hover {
+  background-color: white;
+  color: #201261;
+}
+
+.justText {
+  text-align: center;
+  float: left;  
+  color: white;
+  margin-top: 160px;
+  margin-left: 250px;
+  font-family: "Inter", sans-serif;
+}
+
+.justText1 {
+  color:  #8C52FF;
+  font-size: 22px;  
+  font-style: bold;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 290px
+}
+
+.registerPS {
+  text-decoration: none;
+  text-align: center;
+  float: right;
+  margin-right: 310px;
+  margin-top: 150px;
+  float: left;  
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 230px;
+  font-family: "Inter", sans-serif;
+}
+
+
+.registerPSjusttext {
+  text-align: center;
+  float: left;  
+  color: white;
+  margin-top: 0px;
+  margin-left: 250px;
+  font-family: "Inter", sans-serif;
+}
+
+
+
+
+
+

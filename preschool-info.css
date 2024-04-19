@@ -1,0 +1,635 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.section{
+  height: 100%; 
+}
+
+.section1 {
+  background-color: #E8E2FF;
+}
+
+.section2 {
+  background-color: #6F5ACD;
+}
+
+.container {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.left-column {
+  align-items: center;
+}
+
+.right-column {
+  text-align: center;
+}
+
+.fixed-image {
+  width: 650px; /* Adjust width as per your image */
+  height: auto;
+  position: relative;
+  padding-top: 100px;
+  left: 15x; /* Adjust the distance from psName */
+  top: 0; /* Reset top */
+}
+
+.psName {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  color: #2B1392;
+  margin-left: 50px;
+  margin-right: 15px; /* Adjust the distance between psName and fixed-image */
+}
+
+.psExtraDet {
+  color: #6F5ACD;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.EnrollButton {
+  background-color: #FF93DD;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: "Archivo Black", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  border: 2px solid #FF93DD;
+  border-radius: 25px;
+  padding:10px 50px 10px 50px;
+}
+
+.details-shape {
+  background-color:#604FAB;
+  border-radius: 25px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.about-school {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  color: #E8E2FF;
+  margin-left: 40px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 15px; /* Adjust the distance between psName and fixed-image */
+}
+
+.content-details-shape {
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: #E8E2FF;
+}
+
+
+.content-details-title-shape {
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 50px;
+  padding-right: 30px;
+  color: #FF93DD;
+}
+
+.picture {
+  width: auto; /* Adjust width as per your image */
+  height: 480px;
+  position: relative;
+  margin-top: 190px;
+  left: 15x; /* Adjust the distance from psName */
+  margin-right: 50px;
+  border-radius: 50px;
+}
+
+.picture:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.title-2 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  color:  #2B1392;
+  margin-left: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 15px; /* Adjust the distance between psName and fixed-image */
+}
+
+.photo-grid-container {
+  position: relative;
+  width: 100%;
+}
+
+.photo-grid-wrapper {
+  position: relative;
+  width: calc(100% - 100px); /* Adjusted width to account for the button padding */
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-left: 50px; /* Adjusted padding to make space for the buttons */
+}
+
+.photo-grid {
+  display: flex; /* Change to flex for single row */
+  gap: 20px; /* Set gap between items */
+  max-width: 100%; /* Adjust maximum width */
+  padding: 20px;
+}
+
+.photo-grid-item {
+  flex: 1; /* Distribute available space equally */
+  max-width: 300px;
+  border: 2px solid #604FAB;
+  background-color: #8D82BB;
+  border-radius: 25px; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-grid-item img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 280px;
+  height: 250px;
+  border: 2px solid #6A4A85;
+}
+
+/* Add hover design and border */
+.photo-grid-item:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.photo-grid-item:hover img {
+  opacity: 0.8; /* Adjust image opacity on hover */
+}
+
+.photo-grid-item .fp-name {
+  color: #FFFFFF;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.photo-grid-item .details {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+
+.section1 .nav-buttons {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  width: 100%; /* Ensure full width */
+  margin-top: 20px; /* Add space above the buttons */
+}
+
+.section1 .nav-buttons .nav-button {
+  padding: 10px 20px; /* Adjust padding for better spacing */
+  margin: 0 10px; /* Add space between buttons */
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth hover effect */
+}
+
+.section1 .nav-buttons .nav-button:nth-child(1) {
+  background-color: #6F5ACD; /* Set background color for the first button */
+}
+
+.section1 .nav-buttons .nav-button:nth-child(2) {
+  background-color:#6A4A85; /* Set background color for the second button */
+}
+
+.section1 .nav-buttons .nav-button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+@media screen and (max-width: 1200px) {
+  .photo-grid {
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+}
+
+
+
+.title-1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  color:  #E8E2FF;
+  margin-left: 40px;
+  text-align: center;
+  margin-right: 15px; 
+}
+
+.event-grid-container1 {
+  position: relative;
+  width: 100%;
+}
+
+.event-grid-wrapper1 {
+  position: relative;
+  width: calc(100% - 100px); /* Adjusted width to account for the button padding */
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-left: 50px; /* Adjusted padding to make space for the buttons */
+}
+
+.event-grid-container {
+  position: relative;
+  width: 100%;
+  white-space: nowrap; /* Prevent wrapping of grid items */
+}
+
+.event-grid-wrapper {
+  position: relative;
+  width: calc(100% - 100px); /* Adjusted width to account for the button padding */
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-left: 50px; /* Adjusted padding to make space for the buttons */
+}
+
+.event-grid1 {
+  display: flex; /* Change to flex to ensure horizontal layout */
+  gap: 20px; /* Adjust spacing between grid items */
+  justify-content: flex-start; /* Align items at the start of the flex container */
+}
+
+.event-grid-item1 {
+  border: 2px solid #6F5ACD;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  padding: 30px;
+  display: inline-block; /* Corrected display value */
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px; /* Set a fixed height for consistency */
+}
+
+.event-grid-item1 img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 280px;
+  height: 250px;
+  border: 2px solid #6A4A85;
+}
+
+.event-grid-item1 .title1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+.event-grid-item1 .detInfo1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 15px;
+}
+
+
+/* Add hover design and border */
+.event-grid-item1:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.event-grid-item1:hover img {
+  opacity: 0.8; /* Adjust image opacity on hover */
+}
+
+
+.section2 .nav-buttons {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  width: 100%; /* Ensure full width */
+  margin-top: 20px; /* Add space above the buttons */
+}
+
+.section2 .nav-buttons .nav-button {
+  padding: 10px 20px; /* Adjust padding for better spacing */
+  margin: 0 10px; /* Add space between buttons */
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth hover effect */
+}
+
+.section2 .nav-buttons .nav-button:nth-child(1) {
+  background-color: #6F5ACD; /* Set background color for the first button */
+}
+
+.section2 .nav-buttons .nav-button:nth-child(2) {
+  background-color:#6A4A85; /* Set background color for the second button */
+}
+
+.section2 .nav-buttons .nav-button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+@media screen and (max-width: 1200px) {
+  .event-grid1 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+
+
+.tblBG {
+  background-color:#9C89CD;
+  border-radius: 15px;
+  margin-right: 50px;
+  padding: 30px;
+}
+
+.tblBG:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+
+}
+
+.tblBorder {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+.tblBorder th, .tblBorder td {
+  padding: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #FFE3E3;
+}
+
+.tblBorder th {
+  background-color: #6A4A85;
+  color: white;
+  text-align: center;
+}
+
+.tblBorder td {
+  color: black;
+  text-align: center;
+}
+
+.facility-grid-container {
+  position: relative;
+  width: 100%;
+}
+
+.facility-grid-wrapper {
+  position: relative;
+  width: calc(100% - 80px); /* Adjusted width to account for the button padding */
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  padding-left: 40px; /* Adjusted padding to make space for the buttons */
+}
+
+.facility-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 15px;
+}
+
+.facility-grid-item {
+  border: 2px solid #6F5ACD;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.facility-grid-item img {
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 270px; /* Specific width for the image */
+  height: 180px; /* Specific height for the image */
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container height */
+}
+
+/* Media query to adjust layout for smaller screens */
+@media screen and (max-width: 600px) {
+  .facility-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Add hover design and border */
+.facility-grid-item:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.facility-grid-item:hover img {
+  opacity: 0.8; /* Adjust image opacity on hover */
+}
+
+.facility-grid-item .title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+.facility-grid-item .detInfo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 15px;
+}
+
+/* design for the subject and schedules */
+
+.subBG-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.subBG {
+  text-align: center;
+  border-radius: 5px;
+  width: calc(50% - 40px); /* Set the width to 50% minus margins */
+  background-color: #9C89CD;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.subBG:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.tblBG-SS {
+  background-color:#9C89CD;
+  border-radius: 15px;
+  padding: 30px;
+  align-items: center; 
+}
+
+.tblBG-SS:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+
+}
+
+.tblBorder-SS {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+.tblBorder-SS th, .tblBorder-SS td {
+  padding: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #FFE3E3;
+}
+
+.tblBorder-SS th {
+  background-color: #6A4A85;
+  color: white;
+  text-align: center;
+}
+
+.tblBorder-SS td {
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-SS {
+  display: flex;
+  justify-content: space-between; /* Add space between the columns */
+  align-items: flex-start; /* Align items to the top of the container */
+}
+
+.left-column-SS,
+.right-column-SS {
+  width: 50%; /* Adjust the width of each column */
+}
+
+.tblBG-SS,
+.subBG-container {
+  width: 90%; /* Set width to fill available space */
+}
+
+.left-column-SS {
+  align-items: flex-start;
+  margin: 10px;
+  margin-left: 25px;
+}
+
+.right-column-SS {
+  align-items: flex-start;
+  margin: 10px;
+}
+.container-B {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Adjust height as needed */
+}
+
+.tblBG-B {
+  background-color: #9C89CD;
+  border-radius: 15px;
+  padding: 30px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smooth hover effect */
+}
+
+.tblBG-B:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.tblBorder-B {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+.tblBorder-B th,
+.tblBorder-B td {
+  padding: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #FFE3E3;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tblBorder-B th {
+  background-color: #6A4A85;
+}
+
+.tblBorder-B th,
+.tblBorder-B td {
+  transition: box-shadow 0.3s; /* Add transition for smooth hover effect */
+}
+
+.tblBorder-B tr:hover td {
+  box-shadow: none; /* Remove box shadow on table row hover */
+}
+
+.title-SS {
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
